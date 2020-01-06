@@ -1,0 +1,30 @@
+{
+  "add_emp": {
+    "username": "sdifhio搜索",
+    "password": "12331232",
+    "http_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "query_emp": {
+    "http_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "modify_emp": {
+    "username": "sdif3hio搜索",
+    "password": "123313232",
+    "http_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "remove_emp": {
+    "http_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  }
+}

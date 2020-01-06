@@ -1,0 +1,8 @@
+2020-01-06 18:10:38,021 INFO [root] [login.py(test_login_success:31)] - 响应信息中的json为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'bc1a629b-50b5-45a2-92ba-5dd63add1bba'}
+2020-01-06 18:10:38,024 INFO [root] [login.py(test_login_success:39)] - 保存令牌后的Headers：{'Content-Type': 'application/json', 'Authorization': 'Bearer bc1a629b-50b5-45a2-92ba-5dd63add1bba'}
+2020-01-06 18:10:38,103 INFO [root] [ihrm_emp.py(test01_add_emp:37)] - 打印返回的response:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214127112751239168'}}
+2020-01-06 18:10:38,103 INFO [root] [ihrm_emp.py(test01_add_emp:43)] - 1214127112751239168
+2020-01-06 18:10:38,178 INFO [root] [ihrm_emp.py(test02_query_emp:51)] - 查询响应信息为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214127112751239168', 'mobile': '12331232', 'username': 'sdifhio搜索', 'password': '25bfd0b2788c6eca3fc6531d370b11b4', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1210411411066695680', 'timeOfEntry': '2020-01-28T00:00:00.000+0000', 'formOfEmployment': 2, 'workNumber': '12321214', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-01-20T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试', 'roleIds': [], 'staffPhoto': None}}
+2020-01-06 18:10:38,253 INFO [root] [ihrm_emp.py(test03_modify_emp:62)] - 修改员工信息的json数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214127112751239168'}}
+2020-01-06 18:10:38,442 INFO [root] [ihrm_emp.py(test03_modify_emp:68)] - 数据库查询到的username为：sdif3hio搜索
+2020-01-06 18:10:38,515 INFO [root] [ihrm_emp.py(test04_remove_emp:80)] - 删除员工的响应信息：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
