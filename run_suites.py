@@ -16,7 +16,7 @@ suite.addTest(unittest.makeSuite(TestIHRMEmp))
 # suite.addTest(unittest.makeSuite(TestIHRMLogin))
 
 # 设置测试报告文件路径并加时间戳
-filename = app.BASE_DIR + '/report/report_{}.html'.format(time.strftime('%Y%m%d-%H%M%S'))
+filename = app.BASE_DIR + '/report/report.html'
 # 使用HTMLTestRunner执行测试用例，生成测试报告
 with open(filename, 'wb')as f:
     # 实例化HtmlTestRunner对象
